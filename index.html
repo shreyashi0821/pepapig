@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepa Pig's Muddy World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky">
+    <div class="sun"></div>
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
+    <div class="cloud c3"></div>
+  </div>
+
+  <header>
+    <h1>🐷 Pepa Pig's Muddy World 🐷</h1>
+    <p class="tagline">Oink oink! Welcome to the happiest little hill!</p>
+  </header>
+
+  <main>
+    <section class="stage">
+      <div class="pig" id="pig" title="Click me!">
+        <div class="ear left"></div>
+        <div class="ear right"></div>
+        <div class="head">
+          <div class="eye left"><span></span></div>
+          <div class="eye right"><span></span></div>
+          <div class="snout"><i></i><i></i></div>
+          <div class="cheek"></div>
+          <div class="mouth"></div>
+        </div>
+        <div class="body">
+          <div class="arm left"></div>
+          <div class="arm right"></div>
+        </div>
+        <div class="leg left"></div>
+        <div class="leg right"></div>
+        <div class="tail"></div>
+      </div>
+      <div class="speech" id="speech">Click me to say hello!</div>
+    </section>
+
+    <section class="buttons">
+      <button id="oinkBtn">🐽 Oink!</button>
+      <button id="jumpBtn">💦 Jump in Muddy Puddles</button>
+      <button id="rainBtn">🌧️ Make it Rain</button>
+    </section>
+
+    <section class="score">
+      Puddle splashes: <strong id="splashCount">0</strong>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <div class="emoji">🌈</div>
+        <h2>Favourite Things</h2>
+        <p>Muddy puddles, teddy bears, and big family giggles.</p>
+      </article>
+      <article class="card">
+        <div class="emoji">🦖</div>
+        <h2>Little Brother</h2>
+        <p>He loves his dinosaur more than anything. Grrr!</p>
+      </article>
+      <article class="card">
+        <div class="emoji">🍪</div>
+        <h2>Snack Time</h2>
+        <p>Chocolate cake and cookies after a long day of play.</p>
+      </article>
+    </section>
+  </main>
+
+  <div class="hill"></div>
+  <div class="puddle" id="puddle"></div>
+  <div id="rain"></div>
+
+  <footer>Made with 💗 and lots of mud</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
