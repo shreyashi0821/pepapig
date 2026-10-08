@@ -54,6 +54,36 @@
       Puddle splashes: <strong id="splashCount">0</strong>
     </section>
 
+    <section class="game">
+      <h2>🐷 Tic Tac Toe with Pepa 🦖</h2>
+      <p class="game-sub">You are Pepa 🐷 — beat the dinosaur 🦖!</p>
+      <div class="scoreboard">
+        <div>🐷 You: <strong id="winsPig">0</strong></div>
+        <div>🤝 Draws: <strong id="draws">0</strong></div>
+        <div>🦖 Dino: <strong id="winsDino">0</strong></div>
+      </div>
+      <div class="board" id="board">
+        <button class="cell" data-i="0" aria-label="cell 1"></button>
+        <button class="cell" data-i="1" aria-label="cell 2"></button>
+        <button class="cell" data-i="2" aria-label="cell 3"></button>
+        <button class="cell" data-i="3" aria-label="cell 4"></button>
+        <button class="cell" data-i="4" aria-label="cell 5"></button>
+        <button class="cell" data-i="5" aria-label="cell 6"></button>
+        <button class="cell" data-i="6" aria-label="cell 7"></button>
+        <button class="cell" data-i="7" aria-label="cell 8"></button>
+        <button class="cell" data-i="8" aria-label="cell 9"></button>
+      </div>
+      <p class="game-status" id="gameStatus">Your turn, Pepa! Tap a square.</p>
+      <div class="game-controls">
+        <button id="resetGame">🔄 Play Again</button>
+        <select id="difficulty" aria-label="Difficulty">
+          <option value="easy">🧸 Easy</option>
+          <option value="medium" selected>🎈 Medium</option>
+          <option value="hard">🦖 Hard</option>
+        </select>
+      </div>
+    </section>
+
     <section class="cards">
       <article class="card">
         <div class="emoji">🌈</div>
